@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    background-color: #80a3a9;
+    background-image: image-set('background/background.avif');
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.btn-pink {
+    background-color: #ffc5c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-pink:hover {
+    background-color: #ff99cc;
+}
+
+#grades {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#class-list {
+    padding: 20px;
+}
+
+.class-div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.class-div:last-child {
+    border-bottom: none;
+}
+
+.class-name-input, .grade-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    background-color: #ffc5c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #ff99cc;
+}
+
+#pagination-controls {
+    margin-top: 20px;
+}
+
+#pagination-controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#pagination-controls span {
+    font-size: 18px;
+}
